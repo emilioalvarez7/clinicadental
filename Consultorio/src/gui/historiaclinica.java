@@ -42,13 +42,13 @@ public class historiaclinica extends javax.swing.JFrame {
 
         tablaDiagnosticos.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null},
-                {null, null},
-                {null, null},
-                {null, null}
+                {null, null, null},
+                {null, null, null},
+                {null, null, null},
+                {null, null, null}
             },
             new String [] {
-                "Nombre", "Diagnostico"
+                "Nombre", "Prioridad", "Diagnostico"
             }
         ));
         jScrollPane1.setViewportView(tablaDiagnosticos);

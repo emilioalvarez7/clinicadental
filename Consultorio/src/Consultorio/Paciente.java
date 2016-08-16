@@ -8,12 +8,13 @@ package Consultorio;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.io.Serializable;
 
 /**
  *
  * @author emilio
  */
-public class Paciente {
+public class Paciente implements Serializable{
     public String nombre;
     public int DNI;
     public int edad;
@@ -26,6 +27,24 @@ public class Paciente {
     public String jerarquia;
     public String email;
 
+    public Paciente(String nombre, int DNI, int edad, String nacimiento, String domicilio, String barrio, String localidad, int telefono, String lugardetrabajo, String jerarquia, String email) {
+        this.nombre = nombre;
+        this.DNI = DNI;
+        this.edad = edad;
+        this.nacimiento = nacimiento;
+        this.domicilio = domicilio;
+        this.barrio = barrio;
+        this.localidad = localidad;
+        this.telefono = telefono;
+        this.lugardetrabajo = lugardetrabajo;
+        this.jerarquia = jerarquia;
+        this.email = email;
+    }
+
+    public String toString(){
+        return "" + this.DNI + "  -  " + this.nombre;
+     }
+    
     public String getNombre() {
         return nombre;
     }
@@ -134,7 +153,10 @@ public class Paciente {
         this.edad=año;
         
 }
-         }
+
+         
+
+}
          
          
     

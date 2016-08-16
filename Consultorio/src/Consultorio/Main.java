@@ -17,10 +17,7 @@ public class Main {
  
    
          
-        Paciente a = new Paciente();
-        a.setNacimiento("08-05-2000");
-        a.calcularEdad(a.nacimiento);
-        System.out.println("edad" + a.edad);
+    
                 
 }
     

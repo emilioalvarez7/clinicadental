@@ -118,8 +118,7 @@ public class inicio extends javax.swing.JFrame {
 
     private void pacientebtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pacientebtnActionPerformed
     
-    pacientes vp = new pacientes();
-    vp.setVisible(true);
+   
     }//GEN-LAST:event_pacientebtnActionPerformed
 
     private void plandepagosbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_plandepagosbtnActionPerformed

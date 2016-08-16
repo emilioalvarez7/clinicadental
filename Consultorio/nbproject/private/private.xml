@@ -2,6 +2,10 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/home/emilio/NetBeansProjects/Main/src/gui/EdicionPacientes.java</file>
+            <file>file:/home/emilio/NetBeansProjects/Main/src/gui/pacientes.java</file>
+            <file>file:/home/emilio/NetBeansProjects/Main/src/Consultorio/Consultorio.java</file>
+        </group>
     </open-files>
 </project-private>
