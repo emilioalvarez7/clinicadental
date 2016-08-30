@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
  *
  * @author tincho
  */
-public class Paciente {
+public class HC {
     private static String db = "Paciente";
     private static String user = "root";
     private static String pass = "Lescano2015";
