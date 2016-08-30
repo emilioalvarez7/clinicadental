@@ -1,0 +1,5 @@
+CREATE TABLE historiaClinica( nombre varchar(100), nacimiento integer, DNI integer, direccion varchar(100), telefono long, obrasocial varchar(100), numeroCarnet long, titular varchar(3), parentesco varchar(100), lugarDeTrabajo varchar(100), jerarquia varchar(100), email varchar(100), CONSTRAINT pk_datosFiliatorios_DNI PRIMARY KEY(DNI) );
+
+
+CREATE TABLE datosFiliatorios( nombre varchar(100), DNI integer, direccion varchar(100), telefono long, correo varchar(100), CONSTRAINT pk_datos_DNI PRIMARY KEY(DNI) );
+
